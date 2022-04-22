@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(99, 99, 99);
+    margin: 0px;
+}
+
+.TopMenu{
+    margin:0px;
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgb(0, 0, 0));
+}
+
+.TopMenu > h2{
+    color: white;
+    transition-duration: 0.4s;
+    width: 11%;
+    height: 5%;
+    margin-top: 00px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    border-radius: 10%;
+}
+.TopMenu > h2:hover{
+    background-color: rgb(150, 150, 150);
+    color:black;
+}

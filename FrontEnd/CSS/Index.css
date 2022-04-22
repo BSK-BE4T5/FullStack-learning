@@ -1,5 +1,4 @@
 body{
-    background-color: rgb(99, 99, 99);
     margin: 0px;
 }
 
@@ -22,6 +21,6 @@ body{
     border-radius: 10%;
 }
 .TopMenu > h2:hover{
-    background-color: rgb(150, 150, 150);
+    background-color: rgb(218, 214, 214);
     color:black;
 }

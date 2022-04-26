@@ -18,9 +18,31 @@ body{
     text-align: center;
     font-family: 'Bebas Neue', cursive;
     font-size: 50px;
-    border-radius: 10%;
+    border-radius: 30px;
 }
 .TopMenu > h2:hover{
     background-color: rgb(218, 214, 214);
     color:black;
+}
+
+.Logo{
+    width: 5%;
+    height: 5%;
+    transition-duration: 0.4s;
+}
+
+.Logo:hover{
+    width: 6%;
+    height: 6%;
+}
+
+.Cart{
+    width: 5%;
+    height: 5%;
+    transition-duration: 0.4s;
+}
+
+.Cart:hover{
+    width: 6%;
+    height: 6%;
 }

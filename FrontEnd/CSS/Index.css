@@ -37,12 +37,31 @@ body{
 }
 
 .Cart{
-    width: 5%;
-    height: 5%;
+    width: 6%;
+    height: 6%;
     transition-duration: 0.4s;
 }
 
 .Cart:hover{
-    width: 6%;
-    height: 6%;
+    width: 7%;
+    height: 7%;
+    
+}
+
+.catalog{
+    margin:3%;
+   
+
+}
+
+.SP{
+    margin:6%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.SPlogo{
+    width: 20%;
+    height: auto;
+
 }

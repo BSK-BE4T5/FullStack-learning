@@ -60,8 +60,41 @@ body{
     justify-content: space-between;
 }
 
-.SPlogo{
-    width: 20%;
+.SP-container{
+    margin: 0px;
+    width: 30%;
     height: auto;
+    transition-duration: 0.5s;
+    border-bottom-left-radius: 20px  ;
+    border-bottom-right-radius: 20px  ;
 
+}
+.SP-container:hover{
+    margin-top: -10px;
+    background-color: whitesmoke;
+
+}
+.SP-container:hover .SP-container-bottom{
+    color:black;
+}
+.SP-container:hover .SP-container-price{
+    color:black;
+}
+
+.SPlogo{
+    width: 100%;
+}
+
+.SP-container-bottom{
+    font-family: 'Bebas Neue', cursive;
+    color:white;
+    height: 40%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.SP-container-price{
+    font-family: 'Bebas Neue', cursive;
+    color:white;
+    font-size: 33px;
 }

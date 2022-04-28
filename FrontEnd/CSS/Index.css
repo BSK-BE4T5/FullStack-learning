@@ -1,5 +1,7 @@
 body{
     margin: 0px;
+    color:white;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .TopMenu{
@@ -16,7 +18,6 @@ body{
     height: 5%;
     margin-top: 00px;
     text-align: center;
-    font-family: 'Bebas Neue', cursive;
     font-size: 50px;
     border-radius: 30px;
 }
@@ -86,7 +87,6 @@ body{
 }
 
 .SP-container-bottom{
-    font-family: 'Bebas Neue', cursive;
     color:white;
     height: 40%;
     text-align: center;
@@ -94,7 +94,6 @@ body{
 }
 
 .SP-container-price{
-    font-family: 'Bebas Neue', cursive;
     color:white;
     font-size: 33px;
 }

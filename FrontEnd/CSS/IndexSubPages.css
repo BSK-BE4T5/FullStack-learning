@@ -7,6 +7,7 @@
     color: black;
     text-align: center;
     font-size: 30px;
+    border-radius: 30px;
 }
 
 .icofont-download{
@@ -38,7 +39,7 @@
 }
 
 .Description{
-    font-size: 170%;
+    font-size: 180%;
     line-height: 0.6;
     box-sizing: border-box;
     width: 50%;
@@ -46,7 +47,33 @@
     padding-left: 5%;
 }
 
+.BuyZone{
+    margin-top:10% ;
+    margin-bottom: 10%;
+}
+
 .BuyButton{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
     color: white;
+    font-size: 60px;
+    transition-duration: 0.4s;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.BuyButton:hover{
+    background-color: white;
+    color: black;
     
 }
+
+.BuyButton:hover .Download-Icon{
+    filter:invert(100%);
+}
+
+.Download-Icon{
+    height: 45px;
+}
+

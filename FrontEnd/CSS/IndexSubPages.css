@@ -55,9 +55,9 @@
 .BuyButton{
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    width: 38%;
     color: white;
-    font-size: 60px;
+    font-size: 48px;
     transition-duration: 0.4s;
     text-align: center;
     border-radius: 30px;
@@ -74,6 +74,6 @@
 }
 
 .Download-Icon{
-    height: 45px;
+    height: 38px;
 }
 

@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="myProjects/webProject/icofont/css/icofont.min.css">
-    
+    <link rel="stylesheet" href="CSS/Soundwave.css">
     <body background="Image/BgImg.png">
         <div class="TopMenu">
             <img class="Logo" src="Image/Logo.png" alt="Logo" onclick="document.location='SamplePack1.html'">
@@ -39,9 +39,26 @@
                 </div>
             </div>
         </div>
-        <div class="waveform" id="waveform"></div>
-            <canvas></canvas>
-        <div class="BuyZone">
+        <div class="audio-container">
+            <div class="track-name">the name of the track</div>
+            <div class="audio"></div>
+            <div class="buttons">
+                <span class="play-btn btn">
+                    <i class="fa-solid fa-play"></i>
+                    <i class="fa-solid fa-pause"></i>
+                </span>
+                <span class="stop-btn btn">
+                    <i class="fa-solid fa-stop"></i>
+                </span>
+                <span class="mute-btn btn">
+                    <i class="fa-solid fa-volume-high"></i>
+                    <i class="fa-solid fa-volume-xmark"></i>
+                </span>
+                <input type="range" min="0" max="1" step="0.1" value="0.5" class="volume-slider">
+    
+    
+            </div>
+        </div>
             <div class="BuyButton">
                 <img class="Download-Icon" src="Image/DownloadIcon.png" alt="Donwload Icon">
                 Buy SamplePack - 100$
@@ -49,6 +66,8 @@
             
         </div>
                 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/wavesurfer.js/1.0.52/wavesurfer.min.js"></script>
+        <script src="main.js"></script>
 
     </body>
 </html>

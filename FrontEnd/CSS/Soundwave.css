@@ -1,10 +1,18 @@
+.Loops-grid{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .audio-container{
     width: 25%;
     margin-top: 10%;
     margin-bottom: 10%;
-    margin-left: 40px;
+    margin-left: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
     display: flex;
-    justify-content: space-between;
+    flex:0 0 50%;
+    text-align:center;
 }
 
 .audio-container .audio{
@@ -13,12 +21,13 @@
     margin-top: auto;
     margin-bottom: auto;
     font-size: 30px;
-
 }
 
+
 .audio-container .buttons{
-    margin-top: auto;
+    margin-top: 27%;
     margin-bottom: auto;
+
 }
 
 .audio-container .buttons .play-btn .fa-pause{

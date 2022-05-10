@@ -1,6 +1,6 @@
 .Loops-grid{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .audio-container{
@@ -23,9 +23,12 @@
     font-size: 30px;
 }
 
+.Loop-Name{
+    width: 100%;
+}
 
 .audio-container .buttons{
-    margin-top: 27%;
+    margin-top: auto;
     margin-bottom: auto;
 
 }

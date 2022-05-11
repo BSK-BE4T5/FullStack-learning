@@ -2,6 +2,9 @@ body{
     margin: 0px;
     color:white;
     font-family: 'Bebas Neue', cursive;
+    background-image: url(/FrontEnd/Image/BgImg.png);
+    width:auto;
+
 }
 
 .TopMenu{

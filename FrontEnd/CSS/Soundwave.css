@@ -53,12 +53,12 @@
 }
 
 
-.audio-container .buttons .play-btn2.playing .fa-pause2{
+.audio-container .buttons .play-btn2.playing .fa-pause{
     display: inline-block;
 }
 
 
-.audio-container .buttons .play-btn2.playing .fa-play2{
+.audio-container .buttons .play-btn2.playing .fa-play{
     display: none;
 }
 

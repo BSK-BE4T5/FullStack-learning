@@ -52,6 +52,11 @@
     display: none;
 }
 
+.audio-container .buttons .play-btn2 .fa-pause{
+    display: none;
+}
+
+
 
 .audio-container .buttons .play-btn2.playing .fa-pause{
     display: inline-block;

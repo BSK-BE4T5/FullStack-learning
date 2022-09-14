@@ -2,9 +2,8 @@ body{
     margin: 0px;
     color:white;
     font-family: 'Bebas Neue', cursive;
-    background-image: url(/FrontEnd/Image/BgImg.png);
-    
-
+    background-image: url(../Images/SVG/BGImage.svg) ;
+    background-size: cover;
 }
 
 .TopMenu{

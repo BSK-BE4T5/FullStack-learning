@@ -16,9 +16,6 @@
     display: flex;
     flex:0 0 50%;
     text-align:center!important;
-    border: 4px;
-    border-style: double;
-    border-color: aqua;
 }
 
 .audio-container .audio, .audio2{

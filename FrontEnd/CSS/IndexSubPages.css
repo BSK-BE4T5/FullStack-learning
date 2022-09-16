@@ -70,7 +70,8 @@
 }
 
 .BuyButton:hover .Download-Icon{
-    filter:invert(100%);
+   transition: filter 300ms ease-in-out;
+   filter: invert(100%);
 }
 
 .Download-Icon{

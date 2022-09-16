@@ -9,7 +9,7 @@ var audioTrack = WaveSurfer.create({
     hideScrollbar: true,
 });
 
-audioTrack.load('Bf.wav');
+audioTrack.load('./Audio/ButterflyEffect.mp3');
 
 const playBtn = document.querySelector(".play-btn")
 const playBtn2 = document.querySelector(".play-btn2")
@@ -39,7 +39,7 @@ var audioTrack2 = WaveSurfer.create({
     hideScrollbar: true,
 });
 
-audioTrack2.load('Loop2.wav');
+audioTrack2.load('./Audio/HeatWaves.mp3');
 playBtn2.addEventListener("click",()=>{
     audioTrack2.playPause();
 

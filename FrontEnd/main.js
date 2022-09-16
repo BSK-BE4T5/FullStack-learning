@@ -2,7 +2,7 @@
 var audioTrack = WaveSurfer.create({
     container: '.audio',
     waveColor: '#fff',
-    progressColor: '#7A3AC4',
+    progressColor: '#00d5ff',
     barWidth: 1,
     responsive: true,
     barHeight: 60,
@@ -32,7 +32,7 @@ audioTrack.setVolume(1.5);
 var audioTrack2 = WaveSurfer.create({
     container: '.audio2',
     waveColor: '#fff',
-    progressColor: '#7A3AC4',
+    progressColor: '#00d5ff',
     barWidth: 1,
     responsive: true,
     barHeight: 60,

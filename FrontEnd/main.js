@@ -9,7 +9,7 @@ var audioTrack = WaveSurfer.create({
     hideScrollbar: true,
 });
 
-audioTrack.load('./Audio/ButterflyEffect.mp3');
+audioTrack.load('./Audio/ButterFlyEffect.mp3');
 
 const playBtn = document.querySelector(".play-btn")
 const playBtn2 = document.querySelector(".play-btn2")

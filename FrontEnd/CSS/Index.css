@@ -2,9 +2,9 @@ body{
     margin: 0px;
     color:white;
     font-family: 'Bebas Neue', cursive;
-   background-color: black;
-   background-image: url(../Images/SVG/BGImage.svg);
-   background-size: cover;
+    background-color: black;
+    background-image: url(../Images/SVG/BGImage.svg);
+    background-size: cover;
 }
 
 .TopMenu{

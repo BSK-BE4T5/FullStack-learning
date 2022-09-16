@@ -4,6 +4,7 @@ body{
     font-family: 'Bebas Neue', cursive;
    background-color: black;
    background-image: url(../Images/SVG/BGImage.svg);
+   background-size: cover;
 }
 
 .TopMenu{
